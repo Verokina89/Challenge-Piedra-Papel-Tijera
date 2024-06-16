@@ -44,17 +44,15 @@ table {
 
 /* ---------- */
 
+
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
-
-
 body {
-  
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
   text-align: center;
-  background-color: #3a3a3a;
+  background-color: #3A3A3A;
   color: white;
   margin: 15px;
   font-weight: bold;
@@ -63,10 +61,9 @@ h1 {
   font-size: 50px;
   font-weight: bold;
 }
-
 .boton-jugada {
   font-family: "Pixelify Sans", sans-serif;
-  background-color: #3498db;
+  background-color: #3498DB;
   color: #fff;
   padding: 10px 20px;
   font-size: 16px;
@@ -78,68 +75,59 @@ h1 {
   margin: 50px;
   font-weight: bold;
 }
-
 .boton-jugada:hover{
   transform: scale(1.5);
   transition: .3s linear;
 }
-
 .boton-jugada:nth-child(1){
   background-color:rgb(53, 31, 5);
-
 }
-
 .boton-jugada:nth-child(2){
   background-color: rgb(4, 87, 4);
 }
-
 .boton-jugada:nth-child(3){
   background-color: fuchsia;
 }
-
-
 #resultados {
   font-size: 20px;
   margin: 20px 0;
   font-size: 28px;
 }
-
 .textos{
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
 }
-
-.imagenFondo{
-  border: black 1cap inset;
-  border-radius: 15px;
-  background-color: rgba(172, 255, 47, 0.164);
-  
-}
-
 .puntuaciones{
   max-width: 100%;
   max-height: 100%;
-  background-image: url(../img/rock-paper-scissors-hand-icons.png);
+  border: black 1cap inset;
+  border-radius: 15px;
 }
-
+.imagenFondo {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/rock-paper-scissors-hand-icons.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
 .puntuaciones p{
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 7px;
-  background-color: rgba(172, 255, 47, 0.164);
+  background-color: rgba(172, 255, 47, 0.295);
   width: 200px;
   height: 70px;
-  color: rgba(255, 255, 255, 0.699);
+  color: rgb(255, 255, 255);
   font-size: 20px;
 }
-
 .puntuaciones p:nth-child(1){
   border-radius: 5px 5px 0 0;
 }
-
 .puntuaciones p:nth-child(2){
   border-radius: 0 0 5px 5px;
 }
